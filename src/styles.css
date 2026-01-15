@@ -1,7 +1,38 @@
+* {
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background-color: antiquewhite;
+}
+
 nav {
-    border: solid red;
+    display: flex;
+    justify-content:center
+}
+
+button {
+    margin-right: 15px;
+    padding: 5px 30px;
+    background-color: rgb(235, 231, 222);
+    border: solid brown;
+    color: rgb(117, 30, 30);
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 #page-info {
-    border: solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+h1 {
+    border: dotted brown;
+    padding: 20px;
+    border-radius: 15px;
+    color: rgb(117, 30, 30);
+}
+
+#img-container {
+    display: flex;
+    justify-content: space-evenly;
 }
